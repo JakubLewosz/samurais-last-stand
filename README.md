@@ -1,56 +1,72 @@
 # Samurai's Last Stand
 
-*Samurai's Last Stand* is a 2D action game developed as a three-person team project for GameJamPlus Poland 2024/25. It was built with Godot 4.3 and GDScript.
+*Samurai's Last Stand* to gra akcji 2D przygotowana w trzyosobowym zespole na GameJamPlus Poland 2024/25. Powstała w Godot 4.3 z wykorzystaniem GDScript.
 
-![Samurai's Last Stand main menu](./screens/MainMenu.png)
+![Menu główne Samurai's Last Stand](./screens/MainMenu.png)
 
-## Team and competition context
+<a id="team-and-competition-context"></a>
 
-My participation in the project represents 100 documented hours of work. My contribution was:
+## Zespół i udział w konkursie
 
-> Shared responsibility for gameplay programming, testing, level development, and iterative improvements in a three-person team.
+Mój udział w projekcie obejmuje 100 udokumentowanych godzin pracy. Zakres mojego wkładu:
 
-This repository is a fork of the original team repository and is kept on my profile to document my contribution to the project.
+> Wspólna odpowiedzialność za programowanie mechanik rozgrywki, testy, tworzenie poziomów i kolejne poprawki w trzyosobowym zespole.
 
-## Gameplay
+To repozytorium jest forkiem oryginalnego repozytorium zespołu. Utrzymuję je na swoim profilu, aby dokumentować mój udział w projekcie.
 
-The game combines side-scrolling movement with melee and ranged combat across multiple levels. The player can run, jump, and dash while fighting different enemy types. Progression unlocks a double jump and a limited kunai attack, and later encounters include bosses and an enemy-wave arena sequence.
+<a id="gameplay"></a>
 
-The project also includes a main menu, game-over and completion flows, animated characters, sound effects, and background music.
+## Rozgrywka
 
-## Technologies
+Gra łączy poruszanie się po poziomach z widokiem z boku oraz walkę wręcz i na dystans. Gracz może biegać, skakać i wykonywać zryw, walcząc z różnymi przeciwnikami. Postęp odblokowuje podwójny skok i ograniczony atak kunai. Późniejsze etapy obejmują bossów i sekwencję areny z falami przeciwników.
+
+Projekt zawiera także menu główne, obsługę przegranej i ukończenia gry, animowane postacie, efekty dźwiękowe i muzykę.
+
+<a id="technologies"></a>
+
+## Technologie
 
 - Godot Engine 4.3
 - GDScript
-- Godot's 2D scene, physics, animation, and audio systems
-- Windows Desktop x86-64 export
+- Systemy scen 2D, fizyki, animacji i dźwięku Godota
+- Eksport Windows Desktop x86-64
 
-## Running the project
+<a id="running-the-project"></a>
 
-### From source
+## Uruchomienie
 
-1. Install Godot 4.3, or a compatible Godot 4 release.
-2. Clone or download this repository.
-3. Import or open `project.godot` in Godot.
-4. Select **Run Project** in the editor.
+<a id="from-source"></a>
 
-### Windows export
+### Z kodu źródłowego
 
-The repository includes a Windows build. Keep these files in the same directory, then launch the executable:
+1. Zainstaluj Godot 4.3 lub zgodną wersję Godot 4.
+2. Sklonuj albo pobierz repozytorium.
+3. Zaimportuj lub otwórz `project.godot` w Godot.
+4. W edytorze wybierz **Run Project** — uruchomienie projektu.
+
+<a id="windows-export"></a>
+
+### Gotowa wersja dla Windows
+
+Repozytorium zawiera wersję dla Windows. Pozostaw oba pliki w tym samym katalogu, a następnie uruchom plik wykonywalny:
 
 - `Samurai's Last Stand.exe`
 - `Samurai's Last Stand.pck`
 
-## Controls
+<a id="controls"></a>
 
-| Input | Action |
+## Sterowanie
+
+| Przycisk | Działanie |
 | --- | --- |
-| `A` / `D` | Move left / right |
-| `Space` | Jump; double-jump after the ability is unlocked |
-| `Shift` | Dash |
-| Left mouse button | Melee attack |
-| Right mouse button | Throw a kunai after the ability is unlocked |
+| `A` / `D` | Ruch w lewo / prawo |
+| `Space` | Skok; podwójny skok po odblokowaniu umiejętności |
+| `Shift` | Zryw |
+| Lewy przycisk myszy | Atak wręcz |
+| Prawy przycisk myszy | Rzut kunai po odblokowaniu umiejętności |
 
-## Project status
+<a id="project-status"></a>
 
-This game-jam project is retained as a portfolio record of the team's work and my contribution. The repository contains the editable Godot project and a runnable Windows export; it is not presented as a production release.
+## Status projektu
+
+Projekt z game jamu pozostaje w portfolio jako zapis pracy zespołu i mojego udziału. Repozytorium zawiera edytowalny projekt Godot i uruchamialny eksport dla Windows. Nie jest przedstawiane jako wydanie produkcyjne.
